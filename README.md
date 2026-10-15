@@ -2,7 +2,7 @@
 
 This is the repository for the STEWARD-AW pipeline required by project A. The pipeline predicts whether a candidate antibiotic will be effective or not, using the Antibiotic Resistance Microbiology Dataset (ARMD). The pipeline builds a leakage-safe analytical dataset (nine-antibiotic cohort) and compares logistic regression with LightGBM. The feature harmonization matrix and data dictionary can be found as excel files in the repository. 
 
-To reproduce the results in the example_output directory, follow these steps:
+To reproduce the results in the example_output directory, follow these steps using python 3.13:
 
 1. Download the following tables from the link below and place the data into a directory called "data".
 

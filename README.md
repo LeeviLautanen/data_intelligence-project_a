@@ -1,6 +1,8 @@
 ## Data Intelligence - Project A
 
-This is the repository for the STEWARD-AW pipeline required by project A. To run this pipeline you will need to follow the instructions below.
+This is the repository for the STEWARD-AW pipeline required by project A. The pipeline predicts whether a candidate antibiotic will be effective or not, using the Antibiotic Resistance Microbiology Dataset (ARMD). The pipeline builds a leakage-safe analytical dataset (nine-antibiotic cohort) and compares logistic regression with LightGBM. The feature harmonization matrix and data dictionary can be found as excel files in the repository. 
+
+To reproduce the results in the example_output directory, follow these steps:
 
 1. Download the following tables from the link below and place the data into a directory called "data".
 
@@ -31,4 +33,4 @@ py ./build_dataset.py
 py ./train.py
 ```
 
-5. View results in the created output folder. There should be a csv with the dataset and an image showing a calibration plot.
+5. View results in the created output folder. There should be two CSVs and two images. One of the CSVs is the processed data and one is the results of the prediction. The two images are calibration plots, one for the test data and one for the validation data. You can see example results in the folder "example_output".

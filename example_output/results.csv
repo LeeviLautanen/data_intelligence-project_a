@@ -1,0 +1,8 @@
+,logistic regression,logistic regression,LightGBM,LightGBM
+,val,test,val,test
+macro AUROC,0.816,0.819,0.881,0.88
+macro AUPRC,0.728,0.729,0.834,0.83
+balanced accuracy,0.744,0.746,0.797,0.796
+resistant precision,0.422,0.425,0.5,0.495
+resistant recall,0.693,0.687,0.757,0.751
+Brier score,0.173,0.169,0.138,0.138
